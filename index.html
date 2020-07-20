@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Hex, Bin, Dec, Oct">
+    <title>Hex Oct Bin Dec</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hex Oct Bin Dec</h1>
+        <h2>Converter</h2>
+    </header>
+    <p id="first-title">Silahkan masukan data mana yang mau kamu convert</p>
+    <div class="core">
+        <label for="HexType">Hexa Number : </label><br>
+        <input type="text" id="Hex-Type" name="HexType" oninput="Hex()"><br>
+        <label for="OctType">Octal Number : </label><br>
+        <input type="text" id="Oct-Type" name="OctType" oninput="Oct()" ><br>
+        <label for="BinType">Binary Number : </label><br>
+        <input type="text" id="Bin-Type" name="BinType" oninput="Bin()" ><br>
+        <label for="DecType">Decimal Number : </label><br>
+        <input type="text" id="Dec-Type" name="DecType" oninput="Dec()" ><br><br>
+        <button id="tombol" onclick="Reset()">Reset</button>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
